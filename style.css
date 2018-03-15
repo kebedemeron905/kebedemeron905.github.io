@@ -1,11 +1,96 @@
-
 h1 {
-    color: #364453;
-    font-size: 24px;
+    display: grid;
+    color:#444;
+    font-size: 34px;
+    text-align: center;
+    padding: 10px;
+    grid-area: inherit;
+    
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 15%;
+    max-height: 15%;
+    border-radius: 200px;
+    padding: 30px 20px 0px 0px;
+}  
+    
+/*
+.header-container{
+}
+*/
+
+  
+
+body {
+    
+    background-color: #FFFFFF;
+    margin: 0 auto;
+}
+    /*.image-container {
+display: flex;
+align-content: flex-end;
+    }
+    */
+p {
+    font-size: 20px;
+    text-align: center;
+    padding: 5px 0px 20px 0px;
+   
+    
+
+} 
+
+.nav-link {
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    justify-content: center;
+   padding: 20px 20px; 
+   justify-content: space-around;
+   
+    
+}
+
+body-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+   
+   
+}
+.topnav {
+
+    background-color: rgb(238, 234, 234);
+    overflow: hidden;
+}
+
+.secondnav{
+    background-color: rgb(238, 234, 234);
+    overflow: hidden;
+}
+.thirdnav {
+    background-color: rgb(238, 234, 234);
+    overflow: hidden;
+}
+.topnav:hover{
+    background-color: rgba(255, 166, 0, 0.461);
+}
+
+.secondnav:hover{
+    background-color:  rgba(255, 166, 0, 0.461);
+}
+
+.thirdnav:hover{
+    background-color:  rgba(255, 166, 0, 0.461);
 
 }
 
-body {
-
-    background-color: #FFFFFF;
+.nav-link:hover {
+    font-size: 30px;
 }
