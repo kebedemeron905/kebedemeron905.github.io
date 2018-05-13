@@ -1,0 +1,52 @@
+* {
+ margin: 0px;
+ padding: 0px;
+ font-family: san-serif;
+ display: block;
+ text-decoration: none;
+}
+
+#nav-bar {
+    float: left;
+    position: fixed;
+    width: 200px;
+    height: 100%;
+    background: rgb(245, 247, 247);
+    left: -200px;
+    transition: all 500ms linear;
+    background-image: url()
+
+    
+}
+
+#nav-bar ul a {
+    color: black;
+    padding: 60px 42px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-bottom: 1px solid rgb(171, 167, 167);
+    font-size: 20px;
+
+}
+
+#nav-bar .toggle {
+    position: absolute;
+    left: 230px;
+    top: 20px;
+
+}
+
+#nav-bar.active {
+    left: 0px;
+}
+
+#nav-bar .toggle span{
+    display: block;
+    width: 35px;
+    height: 5px;
+    background: rgb(72, 71, 71);
+    margin: 7px 0px;
+    
+   
+    
+
+}
