@@ -1,52 +1,40 @@
+
+body {
+    width: 50%;
+    margin: 0px;
+    height: 0vmax;
+   
+    
+
+    
+}
 * {
  margin: 0px;
  padding: 0px;
  font-family: san-serif;
  display: block;
  text-decoration: none;
+ display: inline;
 }
+
 
 #nav-bar {
-    float: left;
-    position: fixed;
-    width: 200px;
-    height: 100%;
-    background: rgb(245, 247, 247);
-    left: -200px;
-    transition: all 500ms linear;
-    background-image: url()
-
-    
+    display: flex;
+    justify-content: flex-end;
 }
 
-#nav-bar ul a {
-    color: black;
-    padding: 60px 42px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    border-bottom: 1px solid rgb(171, 167, 167);
+ul a {
+    
+    padding: 15px;
+    padding-top: 25px;
+    margin-right: 6em;
     font-size: 20px;
-
+    font-family: sans-serif;
+    color: black;
+    float: left;
 }
 
-#nav-bar .toggle {
-    position: absolute;
-    left: 230px;
-    top: 20px;
-
+img {
+    color: red;
 }
 
-#nav-bar.active {
-    left: 0px;
-}
-
-#nav-bar .toggle span{
-    display: block;
-    width: 35px;
-    height: 5px;
-    background: rgb(72, 71, 71);
-    margin: 7px 0px;
-    
-   
-    
-
-}
