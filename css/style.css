@@ -10,17 +10,19 @@ body {
 }
 
 
+
 #nav-bar {
     display: flex;
     justify-content: flex-end;
 }
 
+ul {
+    margin-top: 2em;
+    padding: 5px 10px;
+}
 
 ul a {
-    
-    padding-top: 25em;
-    margin-right: 6em;
-    margin-top: 6em;
+    margin-right: 7em;
     font-size: 30px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-decoration: none;
@@ -40,21 +42,18 @@ li  {
 }
 
 
- a:active{
-    text-decoration: underline !important;
-    color: rgb(15, 124, 136);
-  }
-  
+ 
   a:hover{
     text-decoration: underline !important;
     color: rgb(15, 124, 136);
   }
 
+  a:active{
+    text-decoration: underline !important;
+    color: rgb(15, 124, 136);
+  }
+  
 
-html {
-    height: 100%;
-   
-}
 
 
 #intro {
@@ -123,7 +122,9 @@ html {
     margin-left: 0em;
     margin-right: -8em;
     text-transform: none;
-    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-fill-color: rgb(152, 150, 150);
+    -webkit-text-stroke-color: rgb(77, 75, 75);
     display: block;
 }  
 
@@ -159,6 +160,52 @@ html {
     float: left;
     margin-top: 7em;
     margin-left: 4em;
-   
+    border: 10px coral;
+  
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: -2em;
+    margin-top: 5em;
+    margin-bottom: -2em;
+    margin-left: 3em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+}
+h4{
+    margin-top: 4em;
+    margin-bottom: 2em;
+}
+.project1{
+    display: inline;
+    background-color: rgb(13, 157, 154);
+    padding: 160px;
+    padding-top: -3px;
+
     
 }
+
+.project-des{
+    display: block;
+    -webkit-margin-before: 9em;
+    -webkit-margin-after: 2em;
+    -webkit-margin-start: -10.5em;
+    -webkit-margin-end: 11px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+}
+.project2{
+    background-color: rgb(182, 28, 67);
+    padding: 160px;
+    padding-top: -3em;
+}
+
+
+.project3{
+    background-color: rgb(60, 123, 218);
+    padding: 160px;
+    padding-top: -3em;
+}
+
