@@ -15,6 +15,7 @@ body {
     justify-content: flex-end;
 }
 
+
 ul a {
     
     padding-top: 25em;
@@ -116,13 +117,12 @@ html {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: black;
     display: block;
-    padding-left: 19em;
-    padding-right: 3em;
+    padding-left: 17em;
+    padding-right: 0em;
     margin-top: 3em;
     margin-left: 0em;
+    margin-right: -8em;
     text-transform: none;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-fill-color: rgb(77, 75, 75);
     -webkit-text-stroke-color: black;
     display: block;
 }  
@@ -149,4 +149,16 @@ html {
 .about{
     margin-left: -16em; 
     margin-top: -8em;
+    
+}
+
+.picture{
+    width: 230px;
+    height: 300px;
+    border-radius: 50%;
+    float: left;
+    margin-top: 7em;
+    margin-left: 4em;
+   
+    
 }
