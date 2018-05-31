@@ -4,25 +4,64 @@
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta http-equiv="X-UA-Compatible" content="ie=edge">
-      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="./css/style.css">
+      <link rel="stylesheet" href="./css/font-awesome.min.css">
 </head>
 <body>
-      <nav id='nav-bar'onclick='togglenavbar()'>
-        <div class="toggle">
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
+ 
+      <nav id='nav-bar'>
         <ul>
-            <a href='home.html'>Home</a>
-            <a href='about.html'>About</a>
-            <a href='#'>Projects</a>
-            <a href='contact.html'>Contact</a>
+            <li><a href='home.html'>Home</a></li>
+            <li><a id="about" href='about.html'>About</a></li>
+            <li><a id="projects" href='#'>Portfolio</a></li>
+            <li><a id="projects" href='contact.html'>Contact</a></li>
         </ul>
       </nav>
-    
-      
+      <div id='loader'>
+        <div class='portfolio'>
+            <section  class='section' id='portfolio'>Portfolio</section>
+        </div>   
+      </div>
+    <div class='projects'>
+        <div class='projects'>
+          <h4 class='project1'><div class='projectname'>Flash Cards</div></h4>
+          <div class=project-des>
+                <div class='projectlinkcontainer'>
+                    <a class='projectlink' href="">view project</a>
+                    <a class='projectlink' href="">view code</a>
+                </div>
+                <p class='project-des'>A simple JavaScript flashcard game 
+                  comprised of iconic artworks. 
+                </p>
+          </div>
+        </div>
+        <div class='projects'>
+            <h4 class='project2'><div class='projectname'>Book Shelf</div></h4>
+            <div class=project-des>
+                  <div class='projectlinkcontainer'>
+                    <a class='projectlink' href="">view project</a>
+                    <a class='projectlink' href="">view code</a>
+                  </div>
+                  <p class='project-des'>
+                    A full-stack book shelf app built using Express, Handlebars, and Mongoose. </p>
+            </div>
+        </div>
+        <!-- <div class='projects'>
+              <h4 class='project3' ><div class='projectname'>Seekr</div></h4>
+              <div class=project-des>
+                  <div class='projectlinkcontainer'>
+                      <a class='projectlink' href="">view project</a>
+                      <a class='projectlink' href="">view code</a>
+                  </div>
+                  <p class='project-des'>A full-stack MERN app that allows users
+                    to track jobs. Back-end uses Django, font-end uses React 
+                    and leverages the backend API  </p>
+              </div>
+        </div> -->
+        <!-- <div class='projects'>
+              <h4 class='project4' >TBD</h4>
+        </div> -->
+    </div>
      
-<script src="main.js"></script>
 </body>
 </html>
