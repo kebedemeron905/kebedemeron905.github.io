@@ -54,7 +54,13 @@ li  {
     color: rgb(15, 124, 136);
   }
   
-
+.intro-description{
+  position: absolute;
+  margin-top: 40em;
+  margin-left: 35em;
+  text-transform: uppercase;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
 
 #intro {
     font-size: 130px;
@@ -112,7 +118,7 @@ li  {
 }
 .profile-image{
     position: absolute;
-    margin-top: 10px;
+    margin-top: 30px;
     margin-left: 15px;
 }
 
@@ -125,7 +131,7 @@ li  {
     display: block;
     padding-left: 17em;
     padding-right: 0em;
-    margin-top: 3em;
+    margin-top: 2em;
     margin-left: 0em;
     margin-right: -8em;
     text-transform: none;
