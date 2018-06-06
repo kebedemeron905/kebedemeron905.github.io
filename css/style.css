@@ -1,15 +1,16 @@
 
-@import url(font-awesome.min.css);
 
 body {
     margin: 0;
     padding: 0;
     height: 100%;
-    /* background-image: url("../../images/overlay.png"), linear-gradient(45deg, #726193 10%, #e37b7c 50%, #ffe4b4); */
 
 }
 
-
+h4 {
+    margin-top: 4em;
+    margin-bottom: 5em;   
+}
 
 #nav-bar {
     display: flex;
@@ -55,15 +56,15 @@ li  {
   
 
 
-
 #intro {
     font-size: 130px;
     display: grid;
+    margin-top: 20em;
     justify-content: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
- /* -webkit-text-fill-color: pink; */
  -webkit-text-stroke-width: 1px;    
 }
+
 
 #loader {
 
@@ -95,6 +96,7 @@ li  {
         background-position: left 800px top -10px;
     }
 }
+
 
 .section {
     font-size: 100px;
@@ -175,10 +177,7 @@ li  {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: white;
 }
-h4 {
-    margin-top: 4em;
-    margin-bottom: 5em;   
-}
+
 
 .projectname {
     display: flex;
@@ -187,6 +186,11 @@ h4 {
     margin-top: -7em;
     padding: 16px;
     
+}
+.icon-container {
+    position: absolute;
+    margin-top: 3em;
+    margin-left: 4em;
 }
 .project1{
     display: inline;
