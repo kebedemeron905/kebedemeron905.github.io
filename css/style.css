@@ -110,6 +110,11 @@ li  {
 
 
 }
+.profile-image{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 15px;
+}
 
 .aboutPtag {
     display: grid;
