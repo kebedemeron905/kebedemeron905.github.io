@@ -179,9 +179,6 @@ li  {
 }
 
 
-
-
-
 .projectname {
     display: flex;
     font-size: 20px;
@@ -189,6 +186,11 @@ li  {
     margin-top: -7em;
     padding: 16px;
     
+}
+.icon-container {
+    position: absolute;
+    margin-top: 3em;
+    margin-left: 4em;
 }
 .project1{
     display: inline;
