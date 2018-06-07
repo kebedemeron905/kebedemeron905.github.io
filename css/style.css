@@ -55,9 +55,10 @@ li  {
   
 .intro-description{
   position: absolute;
-  margin-top: 40em;
-  margin-left: 36em;
+  margin-top: 30em;
+  margin-left: 26.69em;
   text-transform: uppercase;
+  font-size: 20px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
 
