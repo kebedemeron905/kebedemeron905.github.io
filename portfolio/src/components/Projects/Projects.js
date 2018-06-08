@@ -13,10 +13,11 @@ class Projects extends Component {
             <h3>Bookshelf</h3>
             <p>A full-stack bookshelf app built using Express,
             Handlebars, and Mongoose.</p>
-            <a href='' class=''>View Code</a>
-            <a href='' class=''>Deployed App</a>
+            <div className='project-links'>
+              <a href='' className='code'><h4>View Code</h4></a>
+              <a href='' className='deployed'><h4>Deployed App</h4></a>
+            </div>
             <img src='/images/bookshelf.png' alt='bookshelf' />
-
           </div>
 
           <div className='project-two'>

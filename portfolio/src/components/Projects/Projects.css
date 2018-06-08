@@ -9,6 +9,7 @@
     overflow-x: scroll;
     white-space: nowrap;
     -webkit-overflow-scrolling: touch;
+    
   
 }
 
@@ -20,6 +21,27 @@ img {
 p {
   display: block;
 }
+
+.project-links a {
+  position: relative;
+  text-decoration: none; 
+  color: black; 
+}
+
+
+h4 {
+  display: inline;
+  text-align: center;
+  padding: 10px;
+  margin-left: 2em;
+  
+}
+.project-links{
+  position: absolute;
+  padding: 10px;
+  margin-left: 4em;
+}
+
 .project-one{
   
 }
