@@ -29,6 +29,14 @@ class Projects extends Component {
             Handlebars, and Mongoose.</p>
             <img src='/images/bookshelf.png' alt='bookshelf' />
           </div>
+
+          <div className='project-four'>
+            <h3>Seekr</h3>
+            <p>A full-stack bookshelf app built using Express,
+            Handlebars, and Mongoose.</p>
+            <img src='/images/bookshelf.png' alt='bookshelf' />
+          </div>
+
         </div>
       </div>
 
