@@ -5,7 +5,7 @@ class About extends Component {
   render () {
     return (
       <div id='about' className='about-me'>
-        <img src='images/mail.png' alt='meronkebede' />
+        <img src='/images/clip2.png' alt='meronkebede' />
       </div>
     )
   }

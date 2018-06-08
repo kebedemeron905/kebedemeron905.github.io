@@ -1,6 +1,26 @@
 .projects-container{
   display: grid;
     grid-template-columns: repeat(3,1fr);
-    background-color: pink;
-    height: 60em;
+    grid-gap: 4em;
+    padding: 30px;
+    height: 50em;
+}
+
+img {
+  height: 550px;
+  width: 550px;
+}
+p {
+  display: block;
+}
+.project-one{
+  
+}
+
+.project-two{
+  background-color: lightgreen;
+}
+
+.project-three{
+ background-color: lightskyblue;
 }
