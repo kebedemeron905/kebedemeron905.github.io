@@ -4,8 +4,8 @@ import './Home.css'
 class Home extends Component {
   render () {
     return (
-      <div className='loader'>
-        <h1 className='intro'>Meron Kebede</h1>
+      <div className='name-container'>
+        <h1 className='intro'>Meron <br />Kebede</h1>
       </div>
     )
   }
