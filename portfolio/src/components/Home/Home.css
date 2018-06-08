@@ -8,7 +8,7 @@
 .name-container h1 {
   font-weight: normal;
   text-transform: uppercase;
-  background-image: url(../images/clip2.jpg);
+  background-image: url(/images/clip2.jpg);
   background-repeat:repeat-x;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;

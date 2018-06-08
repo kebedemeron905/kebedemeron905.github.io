@@ -18,10 +18,16 @@ class Projects extends Component {
 
           <div className='project-two'>
             <h3>Seekr</h3>
+            <p>A full-stack bookshelf app built using Express,
+            Handlebars, and Mongoose.</p>
+            <img src='/images/bookshelf.png' alt='bookshelf' />
           </div>
 
           <div className='project-three'>
             <h3>Salsa in the DMV</h3>
+            <p>A full-stack bookshelf app built using Express,
+            Handlebars, and Mongoose.</p>
+            <img src='/images/bookshelf.png' alt='bookshelf' />
           </div>
         </div>
       </div>

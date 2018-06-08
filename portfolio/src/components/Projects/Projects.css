@@ -2,14 +2,20 @@
   display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-gap: 4em;
-    padding: 30px;
+    padding: 35px;
+    margin-right: 3em;
+    margin-bottom: 0;
     height: 50em;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  
 }
 
 img {
   height: 550px;
   width: 550px;
 }
+
 p {
   display: block;
 }
@@ -18,9 +24,9 @@ p {
 }
 
 .project-two{
-  background-color: lightgreen;
+
 }
 
 .project-three{
- background-color: lightskyblue;
+ 
 }
