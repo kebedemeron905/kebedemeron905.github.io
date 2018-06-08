@@ -1,8 +1,11 @@
 
-.About-me{
- position: absolute;
+.about-me{
+ position: relative;
  display: block;
- width: 50%;
  float: center;
+
+}
+
+.about-pg{
 
 }
