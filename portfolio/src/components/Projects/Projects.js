@@ -4,49 +4,26 @@ import './Projects.css'
 class Projects extends Component {
   render () {
     return (
-
-      <div id='project' className='projects'>
-        <h1 className='projects-h1'>Projects</h1>
-
-        <div className='projects-container'>
-          <div className='project-one'>
-            <h3>Bookshelf</h3>
-            <div className='description-container'>
-              <p>A full-stack bookshelf app built using Express,
-              Handlebars, and Mongoose.</p>
+      <div id='projects' className='projects-container'>
+        <h1>Projects</h1>
+        <div className='scrolling-wrapper'>
+          <div className='project-show'>
+            <h1 className='project-name'>Bookshelf</h1>
+            <p className='project-description'><span className='app'>App:</span> A full-stack bookshelf app built using <br />Express, handlebars, and Mongoose.</p>
+            <div className='icon-container'>
+              <h4 className='tools-used'>Tools Used: <span>MongDB, Express, Node</span></h4>
+              <i className='devicon-mongodb-plain' />
+              <i className='devicon-express-original' />
+              <i className='devicon-nodejs-plain' />
             </div>
-            <a href='https://bookshelv.herokuapp.com/books' target='_blank'>
-              <img src='/images/bookshelf.png' alt='bookshelf' />
-            </a>
-            <div className='project-links'>
-              <a href='https://github.com/kebedemeron905/Project-two' target='_blank'><button>View Code</button></a>
-              <a href='https://bookshelv.herokuapp.com/books' target='_blank'><button>Deployed App</button></a>
+            <div className='project-link-container'>
+              <a className='project-link'>View Code</a>
+              <a className='project-link'>Deployed App</a>
             </div>
-          </div>
-
-          <div className='project-two'>
-            <h3>Seekr</h3>
-            <p>A frontend React app that uses a Django REST framework API in the backend.<br />
-              Allows users to track their job application process. </p>
-            <img src='/images/bookshelf.png' alt='bookshelf' />
-            <div className='project-links'>
-              <a href='https://github.com/kebedemeron905/Project-two' target='_blank'><button>View Code</button></a>
-              <a href='https://bookshelv.herokuapp.com/books' target='_blank'><button>Deployed App</button></a>
-            </div>
-          </div>
-
-          <div className='project-three'>
-            <h3>Flash Cards</h3>
-            <p>A simple JavaScript flash card game that asks
-              users to identify titles of <br />iconic artworks.
-            </p>
-            <img src='/images/bookshelf.png' alt='bookshelf' />
-            <div className='project-links'>
-              <a href='https://github.com/kebedemeron905/Project-two' target='_blank'><button>View Code</button></a>
-              <a href='https://bookshelv.herokuapp.com/books' target='_blank'><button>Deployed App</button></a>
-            </div>
+            <img className='project-img'src='/images/bookshelf.png' alt='bookshelf' />
           </div>
         </div>
+
       </div>
 
     )

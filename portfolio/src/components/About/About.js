@@ -6,7 +6,7 @@ class About extends Component {
     return (
       <div id='about' className='about-me'>
         <h1 className='about-h1'>About</h1>
-        <img className='headshot' src='/images/meron.png' />
+        <img className='headshot' src='/images/meron.png' alt='headshot' />
       </div>
     )
   }

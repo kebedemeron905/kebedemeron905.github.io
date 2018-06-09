@@ -7,7 +7,7 @@ class Nav extends Component {
       <div id='nav' className='nav-bars'>
         <a href='#' className='home-nav'>Home</a>
         <a href='#about' className='about-nav'>About</a>
-        <a href='#project' className='proj-nav'>Projects</a>
+        <a href='#projects' className='proj-nav'>Projects</a>
         <a href='#contact' className='contact-nav'>Contact</a>
       </div>
     )

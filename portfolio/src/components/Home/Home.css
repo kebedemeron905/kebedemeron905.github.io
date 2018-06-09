@@ -13,8 +13,6 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: animate 60s linear infinite;
-
-
 }
 
 @keyframes animate
