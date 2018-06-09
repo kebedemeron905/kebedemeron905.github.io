@@ -1,6 +1,7 @@
 .contact-container{
- height: 20em;
+ height: 40vh;
  margin: 100px;
+ position: center;
 }
 
 .contact-h1{

@@ -1,28 +1,35 @@
 
 .about-me{
- height: 80vh;
- margin: 100px;
+ height: 70vh;
+ margin: 200px;
  padding-top: 35px;
- background-color: #c1b8c6;
  border-radius: 6px;
- margin-top: -14em;
+ margin-top: -15em;
+ margin-bottom: -5em;
+ -webkit-box-shadow: 3px 3px 5px 6px #ccc; 
+ box-shadow: 3px 3px 5px 6px rgb(101, 174, 174); 
+ 
+
 }
 
 .about-h1 {
-  margin-right: 2em;
+  margin-left: 1em;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   text-transform: uppercase;
   font-size: 45px;
+  text-align: left;
   -webkit-text-stroke-width: 1px;
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke-color: black;
+  
 }
 
 
 .headshot {
-  width:280px;
-  height:350px;
+  width:200px;
+  height:250px;
   float: left;
-  margin-top: 1em;
   padding: 50px;
+  margin-top: -4em;
+  
 }
