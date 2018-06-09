@@ -5,7 +5,7 @@ class Contact extends Component {
   render () {
     return (
       <div id='contact' className='contact-container'>
-        <h1> Contact</h1>
+        <h1 className='contact-h1'> Contact</h1>
         <p className='contact-pp'>Would love to hear from you!</p>
         <div class='icons'>
           <a href='https://github.com/kebedemeron905'target='_blank' class='fab fa-github animated-hover' />
