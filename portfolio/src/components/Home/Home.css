@@ -1,12 +1,13 @@
 .name-container{
-  margin-top: 13%;
-  margin-bottom: -13em;
-  height: 100vh;
+  top: 10em;
+  height: 90vh;
+  margin: 100px;
   justify-content: center;
 }
 
 .name-container h1 {
   font-weight: normal;
+  margin-top: 1.5em;
   text-transform: uppercase;
   background-image: url(/images/clip2.jpg);
   background-repeat:repeat-x;
@@ -36,7 +37,7 @@
   text-transform: uppercase;
   margin-right: 2em;
   margin-top: -3em;
-  margin-bottom: 1.5em;
+  
 }
 
 p::after{
