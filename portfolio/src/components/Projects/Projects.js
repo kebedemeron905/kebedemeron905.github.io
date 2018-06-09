@@ -6,7 +6,7 @@ class Projects extends Component {
     return (
 
       <div id='project' className='projects'>
-        <h1>Projects</h1>
+        <h1 className='projects-h1'>Projects</h1>
 
         <div className='projects-container'>
           <div className='project-one'>

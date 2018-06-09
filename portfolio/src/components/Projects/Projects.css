@@ -13,6 +13,9 @@
     
   
 }
+.projects-h1{
+  padding-top: 50px;
+} 
 
 h3 {
   display: inline;
@@ -28,6 +31,7 @@ img {
 }
 
 .description-container{
+
   width: 650px;
  
 }

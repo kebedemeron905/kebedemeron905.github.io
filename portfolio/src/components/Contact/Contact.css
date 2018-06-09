@@ -1,3 +1,31 @@
 .contact-container{
  height: 20em;
 }
+
+.contact-pp{
+  font-size: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.fab, .fa{
+  text-decoration: none;
+  padding:35px;
+  
+}
+
+.fa-github, .fa-linkedin, .fa-envelope{
+  color: black;
+  text-decoration: none;
+  padding: 18px;
+  
+}
+
+
+.icons {
+  
+  font-size: 5em;
+  text-decoration: none;
+}
+.icons .fab {
+  text-decoration: none;
+}
