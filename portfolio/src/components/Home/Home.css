@@ -28,8 +28,43 @@
 
 .intro {
   font-size: 135px;
+  position: static;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   -webkit-text-stroke-width: 1px;    
 }
 
+.intro-pp{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-right: 2em;
+  margin-top: -3em;
+  margin-bottom: 1.5em;
+}
 
+p::after{
+  content: '╲╱';
+  color: rgb(245, 242, 242);
+  position: absolute;
+  opacity: 0.7;
+  text-shadow: 0 0 6px rgba(0,0,0,0.5);
+  font-size: 20px;
+  width: 60px;
+  height: 40px;
+
+  text-align: center;
+  border-radius: 10px;
+  bottom: 20px;
+  left: 50%;
+  margin-left: -30px;
+  animation: bounce 1s ease infinite;
+}
+
+@keyframes bounce {
+  50% {
+    transform: translateY(-50%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}

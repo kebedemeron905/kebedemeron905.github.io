@@ -1,9 +1,10 @@
 .projects-container{
   display: grid;
-    grid-template-columns: repeat(4,1fr);
-    grid-gap: 4em;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2em;
     padding: 35px;
     margin-right: 3em;
+    margin-left: 3em;
     margin-bottom: 0;
     height: 50em;
     overflow-x: scroll;
@@ -13,43 +14,44 @@
   
 }
 
-img {
-  height: 550px;
-  width: 550px;
-}
-
-p {
-  display: block;
-}
-
-.project-links a {
-  position: relative;
-  text-decoration: none; 
-  color: black; 
-}
-
-
-h4 {
+h3 {
   display: inline;
   text-align: center;
   padding: 10px;
   margin-left: 2em;
   
 }
-.project-links{
-  position: absolute;
-  padding: 10px;
-  margin-left: 4em;
+
+img {
+  height: 550px;
+  width: 550px;
 }
 
-.project-one{
-  
-}
-
-.project-two{
-
-}
-
-.project-three{
+.description-container{
+  width: 650px;
  
 }
+p {
+  display: block;
+}
+
+.project-links a {
+  position: relative;
+  font-size: 20px;
+  text-decoration: none; 
+  color: black; 
+}
+
+.project-links{
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+
+button {
+  font-size: 13px;
+}
+
+
+
