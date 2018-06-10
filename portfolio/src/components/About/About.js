@@ -16,7 +16,21 @@ class About extends Component {
                           school students with their college application process.
             </p>
             <div className='skills-continer'>
-              <h1 className='skills-h1'>Skills:</h1>
+              <h1 className='skills-h1'>Skills</h1>
+              <ul className='skills-list'>
+                <li>HTML</li>
+                <li>JavaScript</li>
+                <li>CSS</li>
+                <li>Git</li>
+                <li>Node</li>
+                <li>Express</li>
+                <li>Django</li>
+                <li>PostgreSQL</li>
+                <li>MongoDB</li>
+                <li>Python</li>
+                <li>React</li>
+                <li>SQL</li>
+              </ul>
             </div>
           </div>
         </div>
