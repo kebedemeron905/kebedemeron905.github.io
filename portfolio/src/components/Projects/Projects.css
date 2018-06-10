@@ -11,6 +11,7 @@
   grid-gap: 1em;
   flex-wrap: nowrap;
   overflow-y: scroll;
+  position: static;
   -webkit-overflow-scrolling: touch;
   -webkit-box-shadow: 3px 3px 5px 6px rgb(21, 142, 142); 
   box-shadow: 3px 3px 5px 6px rgb(21, 142, 142); 
