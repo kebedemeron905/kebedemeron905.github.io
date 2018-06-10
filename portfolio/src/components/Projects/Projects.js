@@ -27,7 +27,7 @@ class Projects extends Component {
           <div className='scrolling-wrapper'>
             <div className='project-show'>
               <h1 className='project-name'>Salsa in the DMV</h1>
-              <p className='project-description'><span className='app'>App:</span> A salsa events tracker app for users <br /> in the DMV.</p>
+              <p className='project-description'><span className='app'>App:</span> A salsa event tracker app for users <br /> in the DMV.</p>
               <div className='icon-container'>
                 <h4 className='tools-used'>Tools Used: <span>Django</span></h4>
                 <i className='devicon-django-plain' />
