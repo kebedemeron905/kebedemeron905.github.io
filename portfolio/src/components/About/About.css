@@ -30,6 +30,16 @@
   height:250px;
   float: left;
   padding: 50px;
-  margin-top: -4em;
+  margin-top: -2em;
   
+}
+
+.about-pp{
+  width: 43em;
+  margin-top: 2em;
+  float: left;
+}
+.about-line {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 18px;
 }
